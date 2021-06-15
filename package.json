@@ -1,7 +1,7 @@
 {
   "name": "front-end",
   "version": "1.0.0",
-  "description": "",
+  "description": "Front end for online open mic",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^5.39.0"
   }
 }
